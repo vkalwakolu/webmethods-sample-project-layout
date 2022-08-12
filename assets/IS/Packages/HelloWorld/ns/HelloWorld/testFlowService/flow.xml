@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -102,7 +103,13 @@
 
   <!-- nodes -->
 
-<MAPINVOKE SERVICE="pub.string:concat" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+<MAPDELETE FIELD="/firstName;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/lastnName;1;0">
+</MAPDELETE>
+
+<MAPINVOKE SERVICE="pub.string:makeString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->
 
@@ -110,11 +117,31 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/firstName;1;0" TO="/inString1;1;0">
+<MAPCOPY FROM="/firstName;1;0" TO="/elementList[0];1;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/lastnName;1;0" TO="/inString2;1;0">
+<MAPCOPY FROM="/lastnName;1;0" TO="/elementList[1];1;1">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/separator;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml"> </value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">separator</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="INVOKEOUTPUT">
@@ -125,11 +152,5 @@
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
-
-<MAPDELETE FIELD="/firstName;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/lastnName;1;0">
-</MAPDELETE>
 </MAP>
 </FLOW>
