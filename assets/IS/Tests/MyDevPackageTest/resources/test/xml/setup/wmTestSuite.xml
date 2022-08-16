@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="wmTestSuite.xml">
+    <webMethodsTestCase description="CUST_ID=BOJJ2537" name="CUST_ID_BOJJ2537">
+        <service folder="MyDevPackage.srvs" name="getCustDataWithUserID">
+            <input>
+                <file filename="resources/test/xml/data/TestCase1_Request.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/TestCase1_Response.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
