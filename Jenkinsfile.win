@@ -28,7 +28,7 @@ pipeline {
             }
         }
 	stage('Deploy') {
-        when { expression {params.TargetEnvironment == "DEV"}
+/*  when { expression {params.TargetEnvironment == "DEV"} */
 	
 		steps {
 		echo %targetEnvironment%
