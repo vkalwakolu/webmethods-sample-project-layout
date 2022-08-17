@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="This is a test suite for BOJCustomerInformation Functionality." name="wmTestSuite.xml">
+    <webMethodsTestCase description="Success scenario" name="TestCase1">
+        <service folder="BOJBusinessCustomerInfo.services" name="getCustomerInfoService">
+            <input>
+                <file filename="resources/test/xml/data/TestCase1_Request.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/TestCase1_Response.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <value name="STATUS">SUCCESS</value>
+    <value name="CUST_ID">17683</value>
+    <value name="CUSM_TYPE">1</value>
+    <value name="CUSM_ID">6020140</value>
+    <value name="NODE_ID">0AE0053A</value>
+    <value name="PROGRAM_ID">BBCST01F</value>
+    <value name="USER_ID">BOJJ4364</value>
+    <null name="TIME_STAMP"/>
+    <value name="MERO_CODE">1</value>
+    <null name="CUSM_WAIVER_SIGNED"/>
+    <null name="CUSM_ORDER"/>
+  </record>
+</IDataXMLCoder>
