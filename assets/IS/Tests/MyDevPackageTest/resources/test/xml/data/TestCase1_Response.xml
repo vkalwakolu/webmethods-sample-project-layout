@@ -2,80 +2,16 @@
 
 <IDataXMLCoder version="1.0">
   <record javaclass="com.wm.util.Values">
-    <array name="CustomerData" type="record" depth="1">
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">17684</value>
-        <value name="CUSM_TYPE">1</value>
-        <value name="CUSM_ID">6020141</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <value name="MERO_CODE">1</value>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">175450</value>
-        <value name="CUSM_TYPE">1</value>
-        <value name="CUSM_ID">6136605</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <value name="MERO_CODE">1</value>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">802112</value>
-        <value name="CUSM_TYPE">1</value>
-        <value name="CUSM_ID">6615807</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <value name="MERO_CODE">1</value>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">78982</value>
-        <value name="CUSM_TYPE">2</value>
-        <value name="CUSM_ID">7011316</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <null name="MERO_CODE"/>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">510330</value>
-        <value name="CUSM_TYPE">2</value>
-        <value name="CUSM_ID">7120283</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <null name="MERO_CODE"/>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="CUST_ID">1350069</value>
-        <value name="CUSM_TYPE">1</value>
-        <value name="CUSM_ID">7435049</value>
-        <value name="NODE_ID">0AE00594</value>
-        <value name="PROGRAM_ID">BBCST01F</value>
-        <value name="USER_ID">BOJJ2537</value>
-        <null name="TIME_STAMP"/>
-        <value name="MERO_CODE">1</value>
-        <null name="CUSM_WAIVER_SIGNED"/>
-        <null name="CUSM_ORDER"/>
-      </record>
-    </array>
-    <value name="status">SUCCESS</value>
+    <value name="CUSM_ID">6020140</value>
+    <value name="STATUS">SUCCESS</value>
+    <value name="CUST_ID">17683</value>
+    <value name="CUSM_TYPE">1</value>
+    <value name="CUSM_ID">6020140</value>
+    <value name="NODE_ID">0AE0053A</value>
+    <value name="PROGRAM_ID">BBCST01F</value>
+    <null name="TIME_STAMP"/>
+    <value name="MERO_CODE">1</value>
+    <null name="CUSM_WAIVER_SIGNED"/>
+    <null name="CUSM_ORDER"/>
   </record>
 </IDataXMLCoder>
